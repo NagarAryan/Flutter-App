@@ -6,9 +6,15 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.red[100],
         appBar: AppBar(
-          title: Text('TEST APP'),
-          backgroundColor: Colors.,
+          title: Center(child: Text('TEST APP')),
+          backgroundColor: Colors.redAccent,
+        ),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/flower.jpg'),
+          ),
         ),
       ),
     ),
